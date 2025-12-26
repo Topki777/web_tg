@@ -22,7 +22,7 @@ body{
 }
 
 #gif{
-   background: url('snow.gif') no-repeat center top;
+   background: url('https://i.gifer.com/2zGl.gif') no-repeat center top;
    background-size: cover;
    background-position: left;
    width: 100%;
@@ -48,5 +48,13 @@ body{
    z-index: 1; /* приоритет слоя*/
    top: 3%;
    float: right;
+
+}
+
+#audio{
+   position: fixed; /* для указания приоритета обязательно указать позицию до */
+   z-index: 4; /* приоритет слоя*/
+   bottom: 3%;
+   left: 20%;
 
 }
