@@ -7,6 +7,7 @@
 }
 
 body{
+   max-width: 514px;
    height: 1000px;
 }
 
@@ -15,7 +16,7 @@ body{
    background: #fff url('NY.jpg') no-repeat center top;
    height: 100%;
    background-size: cover;
-   background-position: right;
+   background-position: left;
    position: relative; /* для указания приоритета обязательно указать позицию до */
    z-index: 0; /* приоритет слоя*/
 
@@ -24,7 +25,7 @@ body{
 #gif{
    background: url('snow.gif') no-repeat center top;
    background-size: cover;
-   background-position: left;
+   background-position: right;
    width: 100%;
    height: 105.5%;
    position: absolute; /* для указания приоритета обязательно указать позицию до */
@@ -33,17 +34,16 @@ body{
 
 #text{
 
-   color: #9C8050;
+   color: #c7c7c7;
    text-align: left; /* расположение текста*/
-   font-size: 30px; /* размер шрифта (px или em - относительные единицы относительно первоначального текста)*/
+   font-size: 19px; /* размер шрифта (px или em - относительные единицы относительно первоначального текста)*/
    font-style: italic; /* стиль текста */
    font-family: "Rubik Gemstones", system-ui; /* шрифты */
 
 
-   word-spacing: 10px; /* пространство между словами*/
+   word-spacing: 5px; /* пространство между словами*/
    letter-spacing: 2px; /* пространство между буквами*/
    line-height: 30px; /* расстояние между строками*/
-   margin-right: 10%;
    position: relative; /* для указания приоритета обязательно указать позицию до */
    z-index: 1; /* приоритет слоя*/
    top: 3%;
